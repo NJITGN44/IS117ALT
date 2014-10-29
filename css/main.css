@@ -3,34 +3,77 @@
 
 /* CSS Box Model, Do not Edit */
 #wrapper {
-   width: 960px;
-   margin-left: auto;
-   margin-right: auto;
-   border: 1px solid;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid;
 }
 
 #content {
-  width: 545px;
-  float: left;
-  padding-left: 24px;
-  padding-right: 24px;
+	width: 545px;
+	float: left;
+	padding-left: 24px;
+	padding-right: 24px;
 }
 
 #sidebar {
-  background-color: red;
-  width: 367px;
-  float:left;
+	background-color: red;
+	width: 367px;
+	float:left;
 }
 
 #footer {
-  clear: both;
+	clear: both;
 }
 /* CSS Box Model, Do not Edit */
+
+/*Title and Header Content*/
 
 #logobrand {
 }
 
 .logobrand {
-height: 86px;
-width: 86px;
+	height: 86px;
+	width: 86px;
+	padding:2px;
 }
+/*Title and Header Content*/
+
+/*--------Links----------*/
+
+#content_links {
+	height: 53px;
+	line-height: 53px;
+
+}
+
+#content_links li {
+	display: inline;
+}
+
+#content_links ul {
+	margin: 0px;
+}
+
+#content_links .mid {
+	margin-left: 35px;
+	margin-right: 35px;
+}
+
+#content_links a {
+	text-decoration: none;
+}
+
+#content_links a:hover {
+	text-decoration: underline;
+}
+/*--------Links----------*/
+
+/*--Content for Webpage--*/
+
+#content_title {
+	height: 87px;
+	line-height: 87px;
+}
+
+/*--Content for Webpage--*/

@@ -2,6 +2,13 @@
 /* CSS Document */
 
 /* CSS Box Model, Do not Edit */
+html {
+    color: #222;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
 #wrapper {
 	width: 960px;
 	margin-left: auto;
@@ -24,6 +31,7 @@
 
 #footer {
 	clear: both;
+	text-align:center;
 }
 /* CSS Box Model, Do not Edit */
 
@@ -106,6 +114,16 @@ h6 {
 #content_title {
 	height: 87px;
 	line-height: 87px;
+	margin:auto;
+	text-align:center;
 }
 
+#content img {
+	height:250px;
+	width:545px;
+}
+
+p.beginning {
+	margin-top: 0px;
+}
 /*--Content for Webpage--*/

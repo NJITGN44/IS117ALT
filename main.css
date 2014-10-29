@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* CSS Box Model, Do not Edit */
+#wrapper {
+   width: 960px;
+   margin-left: auto;
+   margin-right: auto;
+   border: 1px solid;
+}
+
+#content {
+  width: 545px;
+  float: left;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+#sidebar {
+  background-color: red;
+  width: 367px;
+  float:left;
+}
+
+#footer {
+  clear: both;
+}
+/* CSS Box Model, Do not Edit */
+

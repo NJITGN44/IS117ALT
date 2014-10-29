@@ -39,12 +39,36 @@
 }
 /*Title and Header Content*/
 
+/*-----Heading Fonts-----*/
+
+h1 {
+  font-size: 220%;
+}
+h2 { 
+  font-size: 200%;
+}
+h3 {
+  font-size: 180%;
+}
+h4 {
+  font-size: 160%;
+}
+h5 {
+  font-size: 140%;
+}
+h6 {
+  font-size: 120%;
+}
+
+/*-----Heading Fonts-----*/
+
+
+
 /*--------Links----------*/
 
 #content_links {
 	height: 53px;
 	line-height: 53px;
-
 }
 
 #content_links li {
@@ -55,9 +79,17 @@
 	margin: 0px;
 }
 
-#content_links .mid {
+#content_links .first {
 	margin-left: 35px;
-	margin-right: 35px;
+}
+
+#content_links .mid {
+	margin-left: 69px;
+	margin-right: 40px;
+}
+
+#content_links .last {
+	margin-left:58px;
 }
 
 #content_links a {

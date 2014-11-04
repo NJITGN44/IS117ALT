@@ -10,7 +10,7 @@ html {
 }
 
 body {
-background-color:gray;
+background-color:#1D2F3D;
 }
 
 #wrapper {
@@ -18,7 +18,8 @@ background-color:gray;
 	margin-left: auto;
 	margin-right: auto;
 	border: 1px solid;
-	background-color:white;
+	background-color:#b7d2d9;
+	color:#4B5759;
 }
 
 #content {
@@ -38,6 +39,9 @@ background-color:gray;
 #footer {
 	clear: both;
 	text-align:center;
+	background-color:#3c6674;
+	margin:auto;
+	color: #77AEC0;
 }
 
 
@@ -121,8 +125,13 @@ h6 {
 	text-decoration: none;
 }
 
+#content_links a:visited {
+	color:#68858C;
+}
+
 #content_links a:hover {
 	text-decoration: underline;
+	color:#334473;
 }
 /*--------Links----------*/
 
@@ -148,7 +157,7 @@ p.beginning {
 /*--Content for Sidebar--*/
 
 #sidebar h6 {
-  color:red;
+  color:#609bc9;
   text-align:center;
   }
 
@@ -167,9 +176,14 @@ p.beginning {
 #navibar li {
   display:block;
  }
+ 
+ #navibar a:visited {
+	color:#68858C;
+ }
 
 #navibar a:hover {
- text-decoration:underline;
+	text-decoration:underline;
+	color:#334473;
  }
  
 /*--Content for Sidebar--*/
